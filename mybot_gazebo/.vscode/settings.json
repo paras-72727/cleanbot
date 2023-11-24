@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/harshil/race_ws/install/racebot_description/lib/python3.8/site-packages",
+        "/home/harshil/race_ws/install/my1stworld_description/lib/python3.8/site-packages",
+        "/home/harshil/harshil_ws/install/hello_bro/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/harshil/race_ws/install/racebot_description/lib/python3.8/site-packages",
+        "/home/harshil/race_ws/install/my1stworld_description/lib/python3.8/site-packages",
+        "/home/harshil/harshil_ws/install/hello_bro/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ]
+}
