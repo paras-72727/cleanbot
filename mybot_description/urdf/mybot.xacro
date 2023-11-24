@@ -31,6 +31,20 @@
   </collision>
 </link>
 
+
+<!-- Base Footprint Link -->
+
+
+<joint name="base_footprint_joint" type="fixed">	
+  <parent link="baselink"/>
+  <child link="base_footprint"/>
+  <origin xyz="0 0 0" rpy="0 0 0"/>
+</joint>
+
+<link name="base_footprint">
+</link>
+
+
 <link name="lidar">
   <inertial>
     <origin xyz="4.930463915165067e-07 2.344220053906998e-07 0.007500000000000007" rpy="0 0 0"/>
