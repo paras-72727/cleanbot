@@ -1,8 +1,13 @@
 import os
 from launch import LaunchDescription
+from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 
 def generate_launch_description():
+    serial_port = LaunchConfiguration('serial_port', default='/dev/ttyUSB0')
+    frame_id = LaunchConfiguration('frame_id', default='laser')
+    angle_compensate = LaunchConfiguration('angle_compensate', default='true')
+
 
     return LaunchDescription([
 
@@ -11,10 +16,10 @@ def generate_launch_description():
             executable='rplidar_composition',
             output='screen',
             parameters=[{
-                'serial_port': '/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.3:1.0-port0',
+                'serial_port': serial_port,
                 # 'serial_port': '/dev/ttyUSB0',
-                'frame_id': 'laser_frame',
-                'angle_compensate': True,
+                'frame_id': frame_id,
+                'angle_compensate': angle_compensate,
                 'scan_mode': 'Standard'
             }]
         )
