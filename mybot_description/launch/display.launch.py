@@ -13,8 +13,8 @@ def generate_launch_description():
     gazebo_pkg_share = launch_ros.substitutions.FindPackageShare(package='mybot_gazebo').find('mybot_gazebo')
     default_model_path = os.path.join(pkg_share, 'urdf/mybot.xacro')
     default_rviz_config_path = os.path.join(pkg_share, 'rviz/sensors.rviz')
-    world_path=os.path.join(gazebo_pkg_share, 'worlds/practice.world'),
-    sdf_path=os.path.join(pkg_share, 'urdf/mybot', 'practice.world'),
+    world_path=os.path.join(gazebo_pkg_share, 'worlds/room.sdf'),
+    sdf_path=os.path.join(pkg_share, 'urdf/mybot', 'room.sdf'),
     use_sim_time = LaunchConfiguration('use_sim_time')
     robot_state_publisher_node = launch_ros.actions.Node(
         package='robot_state_publisher',

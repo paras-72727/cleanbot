@@ -1,0 +1,34 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/mecha/diff_buggie_ws/build/differential_buggie_gazebo",
+        "/home/mecha/diff_buggie_ws/install/differential_buggie_gazebo/lib/python3.10/site-packages",
+        "/home/mecha/diff_buggie_ws/build/differential_buggie_description",
+        "/home/mecha/diff_buggie_ws/install/differential_buggie_description/lib/python3.10/site-packages",
+        "/home/mecha/champ_ws/install/champ_bringup/local/lib/python3.10/dist-packages",
+        "/home/mecha/champ_ws/install/champ_msgs/local/lib/python3.10/dist-packages",
+        "/home/mecha/spot_ws/build/spotRobot_description",
+        "/home/mecha/spot_ws/install/spotRobot_description/lib/python3.10/site-packages",
+        "/home/mecha/race_ws/build/racebot_description",
+        "/home/mecha/race_ws/install/racebot_description/lib/python3.10/site-packages",
+        "/home/mecha/race_ws/build/cambot1",
+        "/home/mecha/race_ws/install/cambot1/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/mecha/diff_buggie_ws/build/differential_buggie_gazebo",
+        "/home/mecha/diff_buggie_ws/install/differential_buggie_gazebo/lib/python3.10/site-packages",
+        "/home/mecha/diff_buggie_ws/build/differential_buggie_description",
+        "/home/mecha/diff_buggie_ws/install/differential_buggie_description/lib/python3.10/site-packages",
+        "/home/mecha/champ_ws/install/champ_bringup/local/lib/python3.10/dist-packages",
+        "/home/mecha/champ_ws/install/champ_msgs/local/lib/python3.10/dist-packages",
+        "/home/mecha/spot_ws/build/spotRobot_description",
+        "/home/mecha/spot_ws/install/spotRobot_description/lib/python3.10/site-packages",
+        "/home/mecha/race_ws/build/racebot_description",
+        "/home/mecha/race_ws/install/racebot_description/lib/python3.10/site-packages",
+        "/home/mecha/race_ws/build/cambot1",
+        "/home/mecha/race_ws/install/cambot1/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
