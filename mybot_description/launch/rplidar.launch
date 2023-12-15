@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+    <include file="$(find rplidar_ros)/launch/rplidar_a2m8_launch.py" />
+
+</launch>
